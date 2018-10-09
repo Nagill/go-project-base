@@ -1,2 +1,14 @@
-# go-project-base
-golang project base files
+# golang 项目基础文件结构
+
+创建了基础的项目结构，用于规范项目，并且减少项目重复
+
+项目来源：http://blog.studygolang.com/2012/12/go%E9%A1%B9%E7%9B%AE%E7%9A%84%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84/
+
+## install
+项目安装文件，包含linux和windows的安装文件，在相应的系统上执行对应的安装文件进行安装。按照的简单原理是切换gopath到当前的目录，然后进行安装，安装之后会在当前的目录的bin中自动生成可执行文件
+
+## 项目配置文件
+通过项目配置包来处理项目的配置
+
+## 项目包
+在对应的项目包中编写相应的可执行文件
